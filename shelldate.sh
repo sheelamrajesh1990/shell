@@ -6,6 +6,6 @@ sleep 10
 
 ENDTIME=$(date +%s)
 
-TOTAL_TIME = $(($ENDTIME-$STARTTIME))
+TOTAL_TIME=$(($ENDTIME-$STARTTIME))
 
 echo "Script exceuted in $TOTAL_TIME"
