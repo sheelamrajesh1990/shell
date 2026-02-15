@@ -7,8 +7,7 @@ NUMBER=$1
 # -ne - not equal
 if [ $NUMBER -g 20 ]; then
 echo "Given number $NUMBER  is greater than 20"
-elif 
-if [ $NUMBER -eq 20 ]; then
+elif [ $NUMBER -eq 20 ]; then
 echo "Given number $NUMBER  is equal to 20"
 
 else 
