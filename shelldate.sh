@@ -8,4 +8,4 @@ ENDTIME=$(date +%s)
 
 TOTAL_TIME = $(($ENDTIME-$STARTTIME))
 
-echo "Script exceuted in $TOTAL_TIME
+echo "Script exceuted in $TOTAL_TIME"
