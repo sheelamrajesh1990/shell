@@ -5,3 +5,9 @@ echo  "Script executed at : $STARTTIME"
 sleep 10
 
 ENDTIME=$(date +$s)
+
+echo "Script executed at "
+
+TotalTime = $(($ENDTIME-$STARTTIME))
+
+echo "Script exceuted in $TotalTime
